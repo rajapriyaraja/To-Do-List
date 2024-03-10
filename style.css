@@ -1,0 +1,31 @@
+body{
+    background-color:azure
+}
+.container{ 
+    justify-content: center;
+    background-color: aliceblue;
+    text-align: center;
+    /* border: 1px solid rgb(204, 187, 187);  */
+    max-width: 650px;
+    height:400px;
+}
+input{
+    width: 400px;
+    border-radius: 10px;
+    border-color: darkgray;
+    border-top-color: aliceblue; 
+    outline:none;
+    /* box-shadow: inset 10px 10px 60px; */
+}
+button{
+    width: 60px;
+    border-radius: 10px;
+}
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.remove-btn {
+    margin-left: 10px;
+}
